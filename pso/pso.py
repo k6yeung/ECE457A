@@ -36,6 +36,7 @@ def main():
 
     # Perform optimization 
     cost, pos = optimizer.optimize(accuracy, print_step=25, iters=100, verbose=4)
+
     optimal_row = df.iloc[decode(pos)]
     print("Optimal Particle Position: " + str(pos))
     print("Optimal Neural Net Parameters :: # of Features: %s , # of Layers: %s , Learning Rate: %s" % (optimal_row.features, optimal_row.layers, optimal_row.learning_rate))
