@@ -1,4 +1,4 @@
 # ECE457A
 
 
-Just run it using `python`
+Run dat algo
